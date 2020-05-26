@@ -1,33 +1,100 @@
-<!doctype html>
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="style.css">
-<style>
-	h1 {
-		color: green;
-		text-align: center;
-	}
-
-	p {
-		color: blue;
-		text-align: center;
-
-
-	}
-</style>
 <head>
-	<title>  This is coursera  </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>module2 assignment</title>
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  border: 1px solid black;
+}
+h2 {
+   
+  background-color: #A52A2A;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  color: blue;
+
+}
+
+p {
+  width: 100%;
+  height: 150px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 5px;
+  font-family: Helvetica;
+  color: purple;
+  text-align: left;
+  font-size: 20px;
+  scroll-behavior: smooth;
+  overflow: scroll;
+
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+   .col-lg-4   {
+    float: left;
+    border: 1px solid green;
+
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-7{
+    
+    border: 1px solid green;
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7{
+    width: 100%;
+  }
+ 
+}
+@media (max-width: 767px)
+{
+  .col-sh-1{
+    border:1px solid green;
+    width: 100%;
+  }
+}
+
+</style>
 </head>
 <body>
+<h1>Types of devil fruit users in one piece</h1>
 
-<h1>Types of jutsu </h1>
-
-
-<p>Ninjutsu</p>
-<p>taijutsu</p>
-<p>genjutsu</p>
-<p>konishiwa yamero</p>
-
+<div class="row">
+  <h2 class="col-lg-4 col-md-6 col-sh-1">paramecia<div >
+    <img src="https://vignette.wikia.nocookie.net/onepiece/images/1/1a/Paramecia_Infobox.png/revision/latest?cb=20131018000246" width="130px" height="110px"><p>Paramecia is one of the three Devil Fruit types, being the most common out of them. Paramecia fruits grant a large variety of abilities that enable their consumers to become superhuman or perform a superhuman feat</p></div></h2>
+  
+   <h2 class="col-lg-4 col-md-6 col-sh-1">logia<div><img src="https://vignette.wikia.nocookie.net/onepiece/images/5/51/Tori_Tori_no_Mi%2C_Model_Phoenix_Infobox.png/revision/latest/scale-to-width-down/180?cb=20130126172323" width="
+    130px" height="110px"><p>Zoan is one of the three Devil Fruit types. This type of fruit allows the user to transform into another species and inter-species hybrid forms at will. Zoan types are especially effective in close combat. The term was first used when Dalton's Devil Fruit was used to attack Wapol.</p></div></h2>
+  <h2 class="col-lg-4 col-md-7 col-sh-1">zoan<div><img src="https://vignette.wikia.nocookie.net/onepiece/images/e/e0/Luffy_Grabbing_Hold_of_a_Logia_User.png/revision/latest/scale-to-width-down/210?cb=20160829193150" width="130px" height="110px"><p>Logia is one of the three Devil Fruit types. In essence, this type allows the user to completely alter their form into a natural element and manipulate it at will.</p></div></h2>
+  
+</div>
 
 </body>
 </html>
